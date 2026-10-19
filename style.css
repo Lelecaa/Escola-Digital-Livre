@@ -178,6 +178,10 @@ body {
     .main-nav {
         display: none;
     }
+    /* Classe  */
+    .main-nav.ativo{
+        display: flex;
+    }
      
     .btn-primary {
         display: none;
