@@ -155,4 +155,39 @@ body {
 
 .btn-primary:hover {
     background-color: var(--color-primary-dark);
+
+     
+}
+/* Oculta o menus Hamburguer para telas desktop */
+.hamburguer {
+    display: none;
+    font: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--color-text)
+
+}
+/* Telas pequenas (celulares) */
+@media (max-width: 768px) {
+
+    .search-box {
+        display: none;
+    }
+
+    .main-nav {
+        display: none;
+    }
+     
+    .btn-primary {
+        display: none;
+    }
+
+    .hamburguer {
+        display:flex;
+    
+
+    }
+    
+
 }
